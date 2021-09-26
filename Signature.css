@@ -1,0 +1,38 @@
+/*This is my signature style sheet which will be used across most of my projects. Sometimes it will be a diresct pull,
+others it will be a base to copy and paste my signature and copyrights to other project css files*/
+head   {
+    text-align: center;
+    color:gold; }
+
+    /*The background image causes the set image to be the background, the size identifier contain causes it to fill up to the size of the page*/
+body  {
+    text-align: center;
+    background-image: url(UATSpaceBackground.png);
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+    font-size: 1.5em;
+    font: bolder;
+    color: rgb(255, 217, 0);
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+   }
+
+img   { 
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 50%;}
+
+/*This is the style for my rounded buttons*/
+button {
+    text-align: center;
+        border: none;
+        padding: 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 50%;
+    }
